@@ -1,0 +1,51 @@
+.about_event {}
+
+.about_now p:first-child {
+	width: 330px;
+	height: 36px;
+	font-size: 25px;
+	font-family: PingFangSC-Medium;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 1);
+	line-height: 36px;
+	letter-spacing: 1px;
+	margin: auto;
+	text-align: center;
+}
+
+.about_now p:last-child {
+	width: 403px;
+	height: 17px;
+	font-size: 12px;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 1);
+	line-height: 17px;
+	letter-spacing: 1px;
+	margin: auto;
+	text-align: center;
+}
+
+.about_event_item_right::before {
+	width: 100px;
+	height: 20px;
+}
+
+.about_event_item p:first-child {
+	width: 220px;
+	font-size: 25px;
+	font-family: DIN-Bold, DIN;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+
+.about_event_item p:last-child {
+	width: 233px;
+	font-size: 15px;
+	font-family: PingFangSC-Regular;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	line-height: 21px;
+}

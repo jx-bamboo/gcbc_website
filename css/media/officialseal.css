@@ -1,0 +1,232 @@
+@media screen and (max-width: 1580px) {
+
+	.officialseal_content {
+		width: 1000px;
+		height: 100%;
+		padding-top: 280px;
+	}
+
+	.introduction>video {
+		width: 675px;
+		height: 420px;
+	}
+
+	.officialseal_title {
+		font-size: 58px;
+		line-height: 80px;
+		letter-spacing: 1px;
+	}
+
+	.officialseal_title_summary {
+		font-size: 20px;
+		line-height: 36px;
+		letter-spacing: 4px;
+		margin-top: 10px;
+	}
+	
+	.officialseal_button_div{
+		margin-top: 20px;
+	}
+
+	.officialseal_button_blue {
+		width: 136px;
+		height: 40px;
+		border-radius: 28px;
+		border: 0px;
+	}
+
+	.officialseal_button_white {
+		width: 136px;
+		height: 40px;
+		border-radius: 28px;
+		margin-left: 34px;
+		border: 0px;
+	}
+
+	.officialseal_button_text {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 30px;
+
+	}
+
+	.swiper-slide div .img_computer {
+		width: auto;
+		height: 458px;
+		bottom: -100px;
+	}
+
+	.swiper-slide .officialseal_content .img_block {
+		width: 692px;
+		height: 426px;
+		margin-top: 128px;
+	}
+
+	.officialseal_round_background {
+		width: 90px;
+		height: 90px;
+		border-radius: 45px;
+		margin: 0 auto;
+	}
+
+	.officialseal_round_background>img {
+		width: 36px;
+		height: 36px;
+	}
+
+	.officialseal_page3_list {
+		margin-top: 84px;
+	}
+
+	.officialseal_page3_list .item {
+		margin-top: 150px;
+	}
+
+	.officialseal_page3_list .item>h3 {
+		width: 100%;
+		height: 27px;
+		font-size: 19px;
+		line-height: 36px;
+		letter-spacing: 4px;
+		margin-top: 45px;
+	}
+
+	.officialseal_page3_list .item>p {
+		width: 282px;
+		height: 96px;
+		font-size: 14px;
+		color: #CCCCCC;
+		line-height: 24px;
+		letter-spacing: 2px;
+		margin-top: 8px;
+	}
+
+	.swiper-slide_page4 {
+		font-size: 18px;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+		width: 300px;
+		border-radius: 4px;
+		color: #000000;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		opacity: 1;
+		margin: 0px 0px 20px 0px;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active {
+		width: 300px;
+		border-radius: 4px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin: 0px 0px 20px 0px;
+		color: #FFFFFF;
+	}
+
+	.swiper-pagination-bullet {
+		width: 300px;
+		height: 26px;
+		border-radius: 4px;
+		color: #000000;
+	}
+
+	.swiper-pagination-bullet-active {
+		width: 300px;
+		height: 26px;
+		border-radius: 4px;
+		color: #FFFFFF;
+	}
+
+	.swiper-slide .page4_1_summary {
+		font-size: 16px;
+		line-height: 27px;
+		letter-spacing: 1px;
+		margin-top: 10px;
+		margin: 0 auto;
+	}
+
+	.swiper-slide .page4_1_icon_div {}
+
+	.swiper-slide .page4_1_icon_conetnt {
+		padding: 0 45px;
+		margin-top: 45px;
+	}
+
+	.swiper-slide .page4_1_icon_conetnt .page4_1_icon_div>img {
+		width: 38px;
+		height: 38px;
+	}
+
+	.swiper-slide .page4_1_icon_conetnt .page4_1_icon_div>p {
+		width: 58px;
+		height: 16px;
+		font-size: 12px;
+		color: #020202;
+		line-height: 16px;
+		letter-spacing: 1px;
+	}
+
+	.swiper-slide .page4_1_img_div {
+		margin-top: 36px;
+	}
+
+	.swiper-slide .page4_1_img_div :first-child {
+		width: 512px;
+		height: auto;
+	}
+
+	.swiper-slide .page4_1_img_div :last-child {
+		width: 342px;
+		height: auto;
+		left: 60%;
+		bottom: 0;
+	}
+
+	.swiper-slide .page4_2_img_content {
+		margin-top: 60px;
+	}
+
+	.swiper-slide .page4_2_img_content>div>div {
+		width: 135px;
+		height: 225px;
+		border-radius: 8px;
+	}
+
+	.swiper-slide .page4_2_img_content>div>img {
+		width: 135px;
+		height: 225px;
+		border-radius: 8px;
+	}
+
+	.swiper-slide .page4_2_img_content>div>p {
+		width: 95px;
+		height: 30px;
+		font-size: 22px;
+		line-height: 22px;
+		margin: 18px auto;
+	}
+
+	.swiper-slide .officialseal_content .page4_3_img_content {
+		margin-top: 15px;
+	}
+
+	.swiper-slide .officialseal_content .page4_3_img_content :first-child {
+		width: 638px;
+		height: 338px;
+		margin-top: 65px;
+	}
+
+	.swiper-slide .officialseal_content .page4_3_img_content .phone {
+		width: 123px;
+		height: auto;
+		bottom: -2%;
+		right: 15%;
+	}
+
+	.swiper-slide .officialseal_content .page4_3_img_content :last-child {
+		width: 814px;
+		height: 322px;
+		left: 12%;
+	}
+}

@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>大中华区块链官网 - 公章系统</title>
+		<link rel="Shortcut Icon" href="http://web.gcigb.com/favicon.ico" type="image/x-icon"/> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css"> -->
+		<script src="js/include.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/common.js" type="text/javascript" charset="utf-8"></script>
+
+		<link rel="stylesheet" type="text/css" href="./css/website.css" />
+		<link rel="stylesheet" type="text/css" href="./css/main.css" />
+		<link rel="stylesheet" type="text/css" href="./css/header.css" />
+		<link rel="stylesheet" type="text/css" href="./lib/css/swiper-bundle.min.css" />
+		<!-- Demo styles -->
+		<link rel="stylesheet" type="text/css" href="./css/officialseal.css" />
+		<link rel="stylesheet" type="text/css" href="./css/media/officialseal.css" />
+		<link rel="stylesheet" type="text/css" href="./css/color.css" />
+
+		<link rel="stylesheet" type="text/css" href="./css/officialSealSystem.css" />
+		<link rel="stylesheet" type="text/css" href="./css/scheme.css" />
+		<link rel="stylesheet" type="text/css" href="./css/reputation.css" />
+		<link rel="stylesheet" type="text/css" href="./css/media/media.css" />
+		<style>
+			.swiper-container {
+				width: 100%;
+				height: 100%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				color: #fff;
+				/* Center slide text vertically */
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- <include src="common_html/title.html"></include> -->
+		<div id="root_header_title" class="header-title" style="height: 80px;width: 100%; z-index: 2;">
+			<img src="http://web.gcigb.com/ic_logo.png" class="header-title-img-logo">
+			<div class="header-title-options">
+				<ul class="header-title-ul">
+					<li class="header-title-ul-li" onmouseover="hoverTitleOption(h1_line)" onmouseout="hoverNotTitleOption(h1_line)">
+						<h1 id="h1_line"></h1>
+						<a href="index.html" style="font-size: 20px;">首页</a>
+					</li>
+					<li class="header-title-ul-li" onmouseover="hoverTitleOption(options_product,h1_line2)" onmouseout="hoverNotTitleOption(options_product,h1_line2)">
+						<h1 id="h1_line2"></h1>
+						<div class="header-top-title">产品中心</div>
+						<div class="options" id="options_product">
+							<div class="triangle">
+							</div>
+							<ul>
+								<li>大中华DBchain</li>
+								<li><a href="officialSeal.html">大中华区块链公章</a></li>
+								<li>赛特区块链验证</li>
+							</ul>
+						</div>
+					</li>
+					<li class="header-title-ul-li" onmouseover="hoverTitleOption(options_incubation,h1_line3)" onmouseout="hoverNotTitleOption(options_incubation,h1_line3)">
+						<h1 id="h1_line3"></h1>
+						<div class="header-top-title">DS孵化器</div>
+						<div class="options" id="options_incubation">
+							<div class="triangle">
+							</div>
+							<ul>
+								<li><a href="ds.html">区块链梦工厂</a></li>
+								<li><a href="ds.html">技术孵化</a></li>
+								<li><a href="ds.html">办公空间</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="header-title-ul-li" onmouseover="hoverTitleOption(h1_line4)" onmouseout="hoverNotTitleOption(h1_line4)">
+						<h1 id="h1_line4"></h1>
+						<a href="about.html" style="font-size: 20px;">关于我们</a>
+					</li>
+					<li class="header-title-ul-li" onmouseover="hoverTitleOption(h1_line5)" onmouseout="hoverNotTitleOption(h1_line5)">
+						<h1 id="h1_line5"></h1>
+						<div class="header-top-title">帮助</div>
+					</li>
+				</ul>
+				<img src="http://web.gcigb.com/ic_search.png" class="header-title-img-search">
+				<div class="language">
+					<ul style="width: 80px;" onmouseover="languageHover(root_header_title)" onmouseout="languageHoverOut(root_header_title)">简体中文
+						<span></span>
+						<li>English</li>
+						<li>日本语</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<style type="text/css">
+			.header-title {
+				position: absolute;
+				top: 0;
+				z-index: 1;
+				display: flex;
+				float: left;
+				transition: height 0.3s,background-color .4s;
+			}
+			
+			.header-title-img-logo {
+				width: 170px;
+				height: 46px;
+				margin-left: 10%;
+				margin-top: 16px;
+			}
+			
+			.header-title-options {
+				display: flex;
+				width: 100%;
+				padding:0px 10%;
+			}
+			
+			
+			.header-title-ul {
+				height: auto;
+				overflow: hidden;
+				padding: 30px 0px;
+				width: 100%;
+				display: flex;
+				justify-content: flex-end;
+			}
+			
+			.header-title-ul-li {
+				list-style: none;
+				font-family: PingFangSC-Regular;
+				width: 90px;
+				height: 40px;
+				line-height: 24px;
+				text-align: center;
+				float: left;
+				color: rgba(255, 255, 255, 1);
+				font-size: 16px;
+				margin-left: 42px;
+				cursor: pointer;
+			}
+			
+			.header-title-ul-li>a {
+				color: rgba(255, 255, 255, 1);
+				text-decoration: none;
+			}
+			
+			.header-title-ul-li h1 {
+				width: 80px;
+				height: 4px;
+				background: rgba(35, 183, 255, 1);
+				position: absolute;
+				top: -4px;
+				margin-left: 5px;
+				transition: top 0.3s;
+			}
+		</style>
+		
+		<!--  -->
+		<!-- Swiper -->
+		<div class="swiper-container  swiper-container-father">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide slide1">
+					<video loop="loop" muted autoplay="autoplay" style="object-fit: fill; position: absolute; z-index: -1;">
+						<source src="http://web.gcigb.com/officialseal_video%20.mp4" type="video/mp4">
+						</source>
+						当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+					</video>
+					<div class="officialseal_content">
+						<h1 class="officialseal_title">大中华公章系统</h1>
+						<p class="officialseal_title_summary">安全易用，免费无广告，快快使用体验↓↓</p>
+						<div class="officialseal_button_div">
+							<button class="officialseal_button_blue officialseal_button_text color_font_white" type="button">立即使用</button>
+							<button class="officialseal_button_white officialseal_button_text color_font_black" type="button" onclick="playVideo()">演示视频</button>
+						</div>
+						<img class="img_computer" src="http://web.gcigb.com/officialseql_page1_icon.png" id="id_img_compputer" onclick="playVideo()">
+					</div>
+					<div class="introduction swiper-no-swiping" onclick="stopVideo()">
+						<div>
+						</div>
+						<video id="introductionVideo" controls>
+							<source src="http://web.gcigb.com/introduction.mp4" type="video/mp4">
+							</source>
+							当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+						</video>
+					</div>
+				</div>
+				<div class="swiper-slide slide2 color_background_white">
+					<div class="officialseal_content" id="id_page2">
+						<h1 class="officialseal_title color_font_black">全链路区块链</h1>
+						<p class="officialseal_title_summary color_font_black">一举一动不可篡改 安全透明杜绝暗箱操作</p>
+						<img class="img_block" src="http://web.gcigb.com/page2_icon.png" id="id_img_block">
+					</div>
+				</div>
+				<div class="swiper-slide slide3" style="background-image: url(http://web.gcigb.com/page3_background.png);">
+					<div class="officialseal_content" id="id_page3">
+						<h1 class="officialseal_title">守护企业安全</h1>
+						<p class="officialseal_title_summary">唯一编码 不可篡改 永久存证</p>
+						<div class="officialseal_page3_list">
+							<div class="item" id="item1">
+								<div class="officialseal_round_background">
+									<img src="http://web.gcigb.com/offici_page3_icon_01.png">
+								</div>
+								<h3>区块链哈希码</h3>
+								<p>唯一区块链认证哈希码，让每份合同，每次盖章都有迹可循，杜绝「萝卜章」假章的气焰，成为信誉认证的标志，为企业正名</p>
+							</div>
+							<div class="item" id="item2">
+								<div class="officialseal_round_background">
+									<img src="http://web.gcigb.com/offici_page3_icon_02.png">
+								</div>
+								<h3>不可篡改</h3>
+								<p>去中心化+分布式账本模式，一举一动都在公众眼前，让暗箱操作无所遁形</p>
+							</div>
+							<div class="item" id="item3">
+								<div class="officialseal_round_background">
+									<img src="http://web.gcigb.com/offici_page3_icon_03.png">
+								</div>
+								<h3>永久存证</h3>
+								<p>分布式账本式存证，自我复制数据永不丢失</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide slide4" style="background-color: #FFFFFF;">
+					<div class="swiper-container swiper-container-son">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="officialseal_content" id="id_page4">
+									<h1 class="officialseal_title color_font_black" style="margin-top: -50px;">全平台同步，无限畅游</h1>
+									<p class="page4_1_summary">无论您使用的是Windows、MacOS、国产系统、只需登陆官方账号即可轻松一键授权，时时查阅，进程跟踪，扫码立查，接力互动；打造真正的全平台同步，实现多屏切换。</p>
+									<div class="page4_1_icon_conetnt">
+										<div class="page4_1_icon_div">
+											<img src="http://web.gcigb.com/offici_page_4_1_1.png">
+											<p>Windows</p>
+										</div>
+										<div class="page4_1_icon_div">
+											<img src="http://web.gcigb.com/offici_page_4_1_2.png">
+											<p>Macos</p>
+										</div>
+										<div class="page4_1_icon_div">
+											<img src="http://web.gcigb.com/offici_page_4_1_3.png">
+											<p>Linux</p>
+										</div>
+									</div>
+									<div class="page4_1_img_div">
+										<img src="http://web.gcigb.com/page4_1_book.png">
+										<img src="http://web.gcigb.com/page4_1_ipad.png" id="img_computer_ipad">
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="officialseal_content">
+									<h1 class="officialseal_title color_font_black">专业管理流程</h1>
+									<p class="page4_1_summary">针对各种公司的业务流程提供专业解决方案，做到「 高效率，0影响，全方位接入 」</p>
+									<div class="page4_2_img_content">
+										<div>
+											<div class="div_test"></div>
+											<img src="http://web.gcigb.com/page4_2_1.png">
+											<p>政府机构</p>
+										</div>
+										<div>
+											<div class="div_test"></div>
+											<img src="http://web.gcigb.com/page4_2_2.png">
+											<p>工程机构</p>
+										</div>
+										<div>
+											<div class="div_test"></div>
+											<img src="http://web.gcigb.com/page4_2_3.png">
+											<p>地产机构</p>
+										</div>
+										<div>
+											<div class="div_test"></div>
+											<img src="http://web.gcigb.com/page4_2_4.png">
+											<p>制造机构</p>
+										</div>
+										<div>
+											<div class="div_test"></div>
+											<img src="http://web.gcigb.com/page4_2_5.png">
+											<p>文化机构</p>
+										</div>
+										<div>
+											<div class="div_test"></div>
+											<img src="http://web.gcigb.com/page4_2_6.png">
+											<p>其他机构</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="officialseal_content">
+									<h1 class="officialseal_title color_font_black" style="margin-top: -30px;">简化流程，让办公快人一步</h1>
+									<p class="page4_1_summary">针对办公系统专业优化，「 一键授权，时时查阅，进程跟踪，扫码立查，接力互动 」</p>
+									<div class="page4_3_img_content">
+										<img src="http://web.gcigb.com/officialseql_page1_icon.png">
+										<img class="phone" src="http://web.gcigb.com/page4_3_phone.png">
+										<img src="http://web.gcigb.com/page4_3_img_backgroud.png">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+				<div class="swiper-slide slide5" style="background-color: #FFF;	position: relative;">
+					<div class="mainDiv">
+						<div class="officialseal_title color_font_black">智慧解决方案</div>
+						<div class="smallTitle">
+							大中华区块链科技历经2年，研发“大中华区块链公章”，
+							运用自主开发联盟链关系数据库底层，创造性的将“物理章+电子章”完全“链化”，在国家机关公证后，
+							企业公章及电子签名同时上链，全节点通报，彻底解决公章被盗、被抢、被私刻、被乱盖等企业管理难题。
+						</div>
+
+						<div class="swiper-container" id="main">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide swiper-slide1">
+									<img src="http://web.gcigb.com/scheme01.png">
+								</div>
+								<div class="swiper-slide swiper-slide1">
+									<img src="http://web.gcigb.com/scheme02.png">
+								</div>
+								<div class="swiper-slide swiper-slide1">
+									<img src="http://web.gcigb.com/scheme03.png">
+								</div>
+								<div class="swiper-slide swiper-slide1">
+									<img src="http://web.gcigb.com/scheme04.png">
+								</div>
+								<div class="swiper-slide swiper-slide1">
+									<img src="http://web.gcigb.com/scheme05.png">
+								</div>
+							</div>
+						</div>
+						<nav class="text-title" id="nav" style="cursor: pointer;">
+							<div class="sub-item selected" data-type="new-peo" data-num="0">企业注册
+								<div class="_border"></div>
+							</div>
+							<div class="sub-item" data-type="earning" data-num="1">公章上链
+								<div class="_border"></div>
+							</div>
+							<div class="sub-item" data-type="earning" data-num="2">用章授权
+								<div class="_border"></div>
+							</div>
+							<div class="sub-item" data-type="earning" data-num="3">盖章存储
+								<div class="_border"></div>
+							</div>
+							<div class="sub-item" data-type="earning" data-num="4">记录查询
+								<div class="_border"></div>
+							</div>
+						</nav>
+					</div>
+				</div>
+				<div class="swiper-slide slide6" style="background-color: #FFFFFF;">
+					<div class="mainDiv" style="padding-top: 1.25rem;">
+						<div class="officialseal_title color_font_black">提高企业信誉</div>
+						<div class="page4_1_summary" style="text-align: center;">
+							大中华区块链科技历经2年，研发“大中华区块链公章”，
+							运用自主开发联盟链关系数据库底层
+						</div>
+
+						<!-- JSON 动画 -->
+						<div style="width: 100%;height: 500px;">
+							<div id="lottie">
+								<div class="leftTopImg">
+									<div class="reputation_title">
+										<div class="boldTitle1">
+											<div style="float: left;">
+												<h1 style="letter-spacing: 0px;">公章上链,链上可证</h1>
+												<p>源头杜绝盗用、伪造公章，保护企业信誉</p>
+											</div>
+											<div style="float: right;">
+												<img src="http://web.gcigb.com/reputationRight.png" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="leftBottomImg">
+									<div class="reputation_title">
+										<div class="boldTitle1">
+											<div style="float: left;">
+												<h1 style="letter-spacing: 0px;">企业之名,无法冒用</h1>
+												<p>上链可查即承认,链上不可查即无效</p>
+											</div>
+											<div style="float: right;">
+												<img src="http://web.gcigb.com/reputationRight.png" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="rightTopImg">
+									<div class="reputation_title">
+										<div class="boldTitle1">
+											<div style="float: left;">
+												<img src="http://web.gcigb.com/reputationLeft.png" />
+											</div>
+											<div style="float: right; margin-left: 20px;">
+												<h1 style="letter-spacing: 0px;">机要信息，不可伪造</h1>
+												<p>企业核心数据不可篡改，且拥有获取与使用的绝对权力。</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="rightBottomImg">
+									<div class="reputation_title">
+										<div class="boldTitle1">
+											<div style="float: left;">
+												<img src="http://web.gcigb.com/reputationLeft.png" />
+											</div>
+											<div style="float: right; margin-left: 20px;">
+												<h1 style="letter-spacing: 0px;">对外协作，更添安心</h1>
+												<p>区块链上记载，合作真实，信誉永久</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide slide7" style="position: relative;">
+					<div class="system_main">
+						<div class="system_titleDiv">
+							<div class="officialseal_title" style="color: #FFF; width: 100%;">
+								大中华公章系统
+							</div>
+							<div class="officialseal_title_summary" style="color: #FFF;">
+								安全易用，免费无广告，快快下载体验↓↓
+							</div>
+						</div>
+						<!-- 公章系统 按钮 -->
+						<!-- 					<div class="buttonDiv">
+							<button type="button" style="background-color: #0A6DFF; color: white;">
+								立即使用
+							</button>
+							<button type="button" style="background-color: #FFF;">
+								演示demo
+							</button>
+						</div> -->
+						<div class="officialseal_button_div">
+							<button class="officialseal_button_blue officialseal_button_text color_font_white" type="button">立即使用</button>
+							<button class="officialseal_button_white officialseal_button_text color_font_black" type="button">查看视频</button>
+						</div>
+					</div>
+					<div class="footer" style="position: absolute; bottom: 0px;">
+						<!-- <include src="common_html/footer.html"></include> -->
+						<div class="footer-main">
+							<div class="footer-div-detail">
+								<ul>
+									产品中心
+									<li style="margin-top: 26px;">GCIG开发框架</li>
+									<li>大中华区块链公章</li>
+								</ul>
+								<ul>
+									DS孵化器
+									<li style="margin-top: 26px;">DS学院</li>
+									<li>技术孵化</li>
+									<li>办公空间</li>
+								</ul>
+								<ul>
+									关于我们
+									<li style="margin-top: 26px;">公司介绍</li>
+									<li>招贤纳队</li>
+									<li>企业新闻</li>
+									<li>联系我们</li>
+								</ul>
+								<p class="footer-line"></p>
+								<div class="footer-attention">
+									<img src="http://web.gcigb.com/ic_publish_footer.png">
+									<p>大中华区块链公众号</p>
+								</div>
+								<div class="footer-attention" style="margin-left: 54px;">
+									<img src="http://web.gcigb.com/ic_douyin_footer.png">
+									<p>大中华区块链抖音号</p>
+								</div>
+							</div>
+							<p class="footer-horizontal-line"></p>
+							<div class="footer-number-main">
+								<!-- <div class="footer-number">
+									<p>京公网安备 1100002000xxx号</p>
+									<h1 class="footer_bottom_ver_line"></h1>
+									<p>深圳ICP证xxxxx号</p>
+									<h1 class="footer_bottom_ver_line"></h1>
+									<p>京网信备 1101081939087937xxxx号</p>
+								</div>
+								<p style="margin: 16px auto 17px auto;">使用百度前必读@2020 Baidu</p> -->
+								<div class="addressAndPhone">
+									<p style="color: #FFFFFF;">地址：深圳市福田区福华1路大中华国际交易广场32层 </p>
+									<p style="color: #FFFFFF;">电话：0755-83250870</p>
+								</div>
+								<p style="margin: 16px auto 17px auto;">Copyright © 2020 www.gcigb.com All Rights Reserved. 大中华区块链 版权所有</p>
+							</div>
+						</div>
+						
+						<style type="text/css">
+							
+							.footer-number-main .addressAndPhone p{
+								color: #FFFFFF;
+							}
+							
+							.footer-number-main .addressAndPhone{
+								display: flex;
+								flex-direction: row;
+								flex-wrap: nowrap;
+							}
+							
+							.footer-main {
+								width: 1400px;
+								margin: 0 auto;
+								padding: 76px 0 0 20px;
+							}
+						
+							.footer-main .footer-div-detail {
+								display: flex;
+							}
+						
+							.footer-main .footer-div-detail ul {
+								height: 30px;
+								font-size: 22px;
+								font-family: PingFangSC-Semibold;
+								font-weight: 400;
+								color: rgba(255, 255, 255, 1);
+								line-height: 30px;
+								letter-spacing: 4px;
+								width: 100%;
+							}
+						
+						
+							.footer-main .footer-div-detail ul li {
+								font-size: 16px;
+								font-family: PingFangSC-Regular;
+								font-weight: 400;
+								color: rgba(255, 255, 255, 1);
+								line-height: 22px;
+								letter-spacing: 1px;
+								list-style: none;
+								margin-top: 11px;
+								cursor: pointer;
+							}
+						
+							.footer-main .footer-div-detail ul li:hover {
+								color: antiquewhite;
+							}
+						
+							.footer-main .footer-div-detail .footer-line {
+								width: 1px;
+								height: 154px;
+								background: rgba(107, 107, 107, 1);
+								border-radius: 1px;
+							}
+						
+							.footer-main .footer-div-detail .footer-attention {
+								width: 161px;
+								height: 138px;
+								display: flex;
+								flex-direction: column;
+								margin-left: 157px;
+							}
+						
+							.footer-main .footer-div-detail .footer-attention img {
+								width: 100px;
+								height: 100px;
+								margin: 0 auto;
+							}
+						
+							.footer-main .footer-div-detail .footer-attention p {
+								width: 161px;
+								height: 22px;
+								font-size: 16px;
+								font-family: PingFangSC-Regular;
+								font-weight: 400;
+								color: rgba(255, 255, 255, 1);
+								line-height: 22px;
+								letter-spacing: 1px;
+								margin: 16px auto;
+							}
+						
+							.footer-main .footer-horizontal-line {
+								width: 1228px;
+								height: 1px;
+								background: rgba(66, 66, 66, 1);
+								margin: 79px auto auto auto;
+							}
+						
+							.footer-main .footer-number-main {
+								width: max-content;
+								display: flex;
+								margin: 23px auto;
+								flex-direction: column;
+							}
+						
+							.footer-main .footer-number-main .footer-number {
+								display: flex;
+							}
+						
+							.footer-main .footer-number-main p {
+								height: 25px;
+								font-size: 18px;
+								font-family: PingFangSC-Regular;
+								font-weight: 600;
+								color: rgba(73, 73, 73, 1);
+								line-height: 25px;
+								letter-spacing: 2px;
+								margin: auto;
+							}
+						
+							.footer-main .footer-number-main .footer_bottom_ver_line {
+								width: 1px;
+								height: 19px;
+								background-image: linear-gradient(#494949, #666, #494949);
+								border-radius: 50% / 50%;
+								margin: auto 20px auto 20px;
+							}
+						</style>
+						
+						<!--  -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Swiper JS -->
+		<script src="./lib/js/swiper-bundle.min.js"></script>
+		<script src="./js/lottie.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="./data.json"></script>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+			var isBigScreen = document.body.clientWidth > 1580;
+			var scaleAnimaArray = new Array();
+			if (isBigScreen) {
+				scaleAnimaArray[0] = 0.5;
+				scaleAnimaArray[1] = 1.0;
+				scaleAnimaArray[2] = 3.0;
+				scaleAnimaArray[3] = 3.2;
+				scaleAnimaArray[4] = 3.5;
+				scaleAnimaArray[5] = 5;
+			} else {
+				scaleAnimaArray[0] = 0.5;
+				scaleAnimaArray[1] = 1.0;
+				scaleAnimaArray[2] = 2.5;
+				scaleAnimaArray[3] = 2.8;
+				scaleAnimaArray[4] = 3.0;
+				scaleAnimaArray[5] = 4;
+			}
+
+			var offset = 485;
+			var computerHeight = id_img_compputer.height;
+			var computerOffset = computerHeight - 300;
+
+			var blockTop = id_img_block.style.marginTop;
+
+			var swiperIndex = sessionStorage.getItem('swiperIndex') ? sessionStorage.getItem('swiperIndex') : 0,
+				initSwiper = {
+					direction: 'vertical',
+					mousewheel: true,
+					on: {
+						slideChangeTransitionEnd: function() {
+							if (this.realIndex == 0) {
+								root_header_title.style.background = "rgba(0, 0, 0, 0)";
+							} else if (this.realIndex == 1) {
+								root_header_title.style.background = "rgba(0, 0, 0, 1)";
+							}
+						},
+						setTranslate: function(swiper, translate) {
+							var absTranslate = Math.abs(translate);
+							var scale = absTranslate / offset;
+
+							if (scale < scaleAnimaArray[0]) {
+								var resultHeight = computerHeight - computerOffset * scale;
+								id_img_compputer.style.height = resultHeight + "px";
+
+								id_img_block.style.marginTop = "128px";
+								id_page2.style.opacity = ".3";
+							}
+							if (scale > scaleAnimaArray[1]) {
+								if (isBigScreen) {
+									id_img_block.style.marginTop = "68px";
+								} else {
+									id_img_block.style.marginTop = "50px";
+								}
+								id_page2.style.opacity = "1";
+							}
+							if (scale < scaleAnimaArray[2]) {
+								item1.style.marginTop = "100px";
+								item2.style.marginTop = "100px";
+								item3.style.marginTop = "100px";
+								id_page3.style.opacity = ".3";
+							}
+
+							if (scale > scaleAnimaArray[2]) {
+								item1.style.marginTop = "0px";
+								id_page3.style.opacity = "1";
+							}
+							if (scale > scaleAnimaArray[3]) {
+								item2.style.marginTop = "0px";
+							}
+							if (scale > scaleAnimaArray[4]) {
+								item3.style.marginTop = "0px";
+							}
+							if (scale > scaleAnimaArray[5]) {
+								img_computer_ipad.style.left = "50%";
+								id_page4.style.opacity = "1";
+							} else {
+								img_computer_ipad.style.left = "60%";
+								id_page4.style.opacity = ".3";
+							}
+						},
+
+					},
+					onSlideChangeStart: function(swiper) {
+						sessionStorage.setItem('swiperIndex', swiper.activeIndex);
+					}
+				};
+			var swiperFather = new Swiper('.swiper-container-father', initSwiper);
+			var swiperSon = new Swiper('.swiper-container-son', {
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+					renderBullet: function(index, className) {
+						var tabArray = new Array();
+						tabArray[0] = "无硬件成本";
+						tabArray[1] = "符合公司管理流程";
+						tabArray[2] = "上手快培训成本低";
+						return '<div class="' + className + '">' + (tabArray[index]) + '</div>';
+					},
+				},
+			});
+
+			var params = {
+				container: document.getElementById('lottie'),
+				renderer: 'svg',
+				loop: true,
+				autoplay: true,
+				animationData: animationData
+			};
+			var anim;
+			anim = lottie.loadAnimation(params);
+
+			$(function() {
+				/*滑动切换*/
+				var swiper = new Swiper('.mainDiv .swiper-container', {
+
+					on: {
+						slideNextTransitionEnd: function(swiper) {
+							$('.mainDiv .sub-item')[this.previousIndex].classList.remove('selected')
+							$('.mainDiv .sub-item')[this.activeIndex].classList.add('selected')
+						},
+						slidePrevTransitionEnd: function(swiper) {
+							$('.mainDiv .sub-item')[this.activeIndex + 1].classList.remove('selected')
+							$('.mainDiv .sub-item')[this.activeIndex].classList.add('selected')
+						}
+					},
+					slidesPerView: 'auto',
+					centeredSlides: true,
+					spaceBetween: 30,
+				});
+				/*点击菜单切换*/
+				$('#nav .sub-item').click(function() {
+
+					$('#nav').find('.selected').removeClass('selected');
+					$(this).addClass('selected');
+
+					var num = $(this).data('num');
+					swiper.slideTo(num, 500, false);
+				});
+			});
+
+			var introduction = document.getElementsByClassName("introduction")[0];
+
+			function playVideo() {
+				introduction.style.display = "block";
+				introductionVideo.play();
+			}
+
+			function stopVideo() {
+				introduction.style.display = "none";
+				introductionVideo.pause();
+				introductionVideo.currentTime = 0;
+			}
+		</script>
+	</body>
+</html>

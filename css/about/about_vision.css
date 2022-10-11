@@ -1,0 +1,47 @@
+.about_vision_title {
+	margin-top: 32px;
+}
+
+.about_vision_content {
+	width: 1360px;
+	height: 420px;
+	background: rgba(0, 0, 0, 1);
+	border-radius: 22px;
+	background-image: url(http://web.gcigb.com/ic_vision_background.png);
+	margin: 50px auto;
+	text-align: center;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.about_vision_content p:first-child {
+	width: 900px;
+	height: 118px;
+	font-size: 42px;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: #000000;
+	line-height: 59px;
+	letter-spacing: 3px;
+}
+
+.about_vision_content p:last-child {
+	width: 900px;
+	height: 66px;
+	font-size: 24px;
+	font-family: PingFangSC-Medium;
+	font-weight: 500;
+	color: #000000;
+	line-height: 33px;
+	letter-spacing: 2px;
+	margin-top: 20px;
+}
+
+
+
+.about_vision_content{
+	
+}

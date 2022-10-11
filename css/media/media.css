@@ -1,0 +1,127 @@
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1538px) {
+
+	/* 大标题尺寸: 78px -> 58px */
+	.mainDiv .officialseal_title {
+		font-size: 3.625rem;
+		margin-top: 3.125rem;
+		line-height: 5rem;
+	}
+
+	.mainDiv .smallTitle{
+		font-size: 1rem;
+		height: 5rem;
+	}
+
+	#main {
+		margin-top: 0rem;
+		height: 400px;
+	}
+	
+	#nav{
+		height: 2.125rem;
+	}
+	
+	#nav .sub-item{
+		line-height: 1.8125rem;
+	}
+	
+	.swiper-container .swiper-wrapper {
+		margin-top: 0rem;
+		height: 400px;
+	}
+	
+	.swiper-container .swiper-wrapper .swiper-slide1{
+		width: 695px;
+		height: 400px;
+		margin-top: 10px;
+	}
+	
+	.system_main .system_titleDiv .officialseal_title {
+		font-size: 3.75rem !important;
+		margin-top: 0 !important;
+	}
+
+	.system_main .system_titleDiv .officialseal_title_summary {
+		margin-top: 0;
+		font-size: 1.25rem;
+	}
+
+	.system_main .buttonDiv {
+		margin-top: 2.75rem;
+	}
+
+	
+	.footer {
+		margin-top: 0px;
+		height: 21.125rem;
+	}
+
+	.footer .footer-main {
+		padding: 0px 0 0 20px;
+	}
+}
+
+/* 判断ipad
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {}
+
+// mac
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1538px) {
+	.boldTitle {
+		color: #56BC83 !important;
+	}
+
+	.system_main .boldTitle {
+		font-size: 55px;
+	}
+}
+
+// ipadPro
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1365px) {
+	.boldTitle {
+		color: #56BC83 !important;
+
+	}
+
+	.system_main .boldTitle {
+		font-size: 55px;
+	}
+}
+
+@media screen and (max-width: 767px) {}
+
+/* ipad横屏 */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	/* style */
+}
+
+/* ipad竖屏 */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	/* style */
+}
+
+/* 判断iphone5 */
+/* 横屏竖屏判断方法与ipad一样 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	/* style */
+}
+
+/* 判断iphone4-iphone4s */
+/* 横屏竖屏判断方法与ipad一样 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	/* style */
+}
+
+/* iphone5分辨率 */
+// screen Width = 320px (css像素)
+// screen Height = 568px (css像素)
+// screen Width = 640px (实际像素)
+// screen Height = 1136px (实际像素)
+// Device-pixel-ratio:2
+// /* iphone4-iphone4s分辨率 */
+// screen Width = 320px (css像素)
+// screen Height = 480px (css像素)
+// screen Width = 640px (实际像素)
+// screen Height = 960px (实际像素)
+// Device-pixel-ratio:2
+*/ // mac

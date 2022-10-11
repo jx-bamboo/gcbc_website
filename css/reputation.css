@@ -1,0 +1,141 @@
+/* 全局div 适配 */
+.mainDiv {
+	background-color: #fff;
+}
+
+/* 文字 */
+.boldTitleReq {
+	width: 100%;
+	min-width: 1160px;
+	height: 100px;
+	font-size: 78px;
+	line-height: 100px;
+	letter-spacing: 5px;
+	text-align: center;
+	margin-top: 3%;
+	color: black;
+	font-family: PingFangSC-Medium, PingFang SC;
+}
+
+.smallTitleReq {
+	width: 1160px;
+	font-size: 18px;
+	color: black;
+	line-height: 36px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	font-weight: 400;
+	margin-top: 16px;
+	font-family: PingFangSC-Medium, PingFang SC;
+}
+
+/* JSON 动画 */
+/* body {
+	margin: 0px;
+	height: 100%;
+	overflow: hidden;
+} */
+
+#lottie {
+	margin: 0 auto;
+	max-width: 500px;
+	max-height: 500px;
+	min-height: 500px;
+	min-width: 500px;
+	display: block;
+	/* overflow: hidden; */
+	transform: translate3d(0, 0, 0);
+	text-align: center;
+	opacity: 1;
+	position:relative; 
+	margin-top: 2%;
+}
+
+/* 公章上链  模块 */
+.leftTopImg{
+	position: absolute;
+	width: 370px;
+	height: 120px;
+	margin-top:70px;
+	margin-left: -280px;
+	z-index: 99;
+}
+
+.reputationCommon_title{
+	margin: 0 auto;
+	width: 1400px;
+}
+
+.reputation_title{
+	display: flex;
+	width: 370px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.reputation_title .boldTitle1 {
+	display: flex;
+	align-items: center;
+}
+
+.reputation_title .boldTitle1 div h1{
+	width: 252px;
+	height: 37px;
+	font-size: 26px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #000000;
+	line-height: 37px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.reputation_title .boldTitle1 div p{
+	width: 242px;
+	height: 75px;
+	font-size: 18px;
+	font-family: PingFangSC-Light, PingFang SC;
+	font-weight: 300;
+	color: #000000;
+	line-height: 25px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.reputation_title .boldTitle1 img{
+	width: 80px;
+	height: 50px;
+	margin-top: -46px;
+	margin-left: 10px;
+}
+
+.leftBottomImg{
+	margin-top: 300px;
+	position: absolute;
+	width: 370px;
+	height: 120px;
+	margin-left: -260px;
+	z-index: 99;
+}
+
+.rightTopImg{
+	position: absolute;
+	width: 370px;
+	height: 180px;
+	margin-top:70px;
+	margin-left: 380px;
+	z-index: 99;
+}
+
+.rightBottomImg{
+	position: absolute;
+	width: 370px;
+	height: 120px;
+	margin-top:360px;
+	margin-left: 280px;
+	z-index: 99;
+}

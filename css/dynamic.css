@@ -1,0 +1,51 @@
+#dynamic_main {
+	width: 100%;
+	margin-top: 32px;
+	display: none;
+}
+
+
+/**
+ * 区块链数据动态 - 每个类型的整体div
+ */
+div.dynamicItemContent {
+	width: 100%;
+}
+
+/**
+ * 区块链数据动态 - 数值
+ */
+p.dynamicNumber {
+	height: 32px;
+	font-size: 28px;
+	font-family: DINAlternate-Bold;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	line-height: 32px;
+	text-align: center;
+}
+
+/**
+ * 区块链数据动态 - 名称
+ */
+p.dynamicName {
+	font-size: 16px;
+	font-family: PingFangSC-Regular;
+	font-weight: 600;
+	color: #000000;
+	line-height: 22px;
+	text-align: center;
+	margin-top: 17px;
+}
+
+/**
+ * 区块链数据动态 - 栏目分类之间的分割线
+ */
+.splitLine {
+	width: 2px;
+	height: 68px;
+	margin: 50px;
+	background-image: linear-gradient(#eee, #000, #eee);
+	border-radius: 50% / 50%;
+	margin: 0 auto;
+}

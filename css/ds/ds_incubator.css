@@ -1,0 +1,29 @@
+.common_content #block_main .incubator >p{
+	width: 643px;
+	height: 240px;
+	font-size: 18px;
+	font-family: PingFangSC-Regular;
+	font-weight: 600;
+	color: #000000;
+	line-height: 40px;
+	letter-spacing: 2px;
+	margin-top: 41px;
+}
+
+
+.ds_incubator_bottom_title{
+	text-align: center;
+	font-size: 22px;
+	letter-spacing: 2px;
+	margin: auto 26%;
+	margin-top: 58px;
+	margin-bottom: -120px;
+	width: 1000px;
+}
+
+.ds_incubator_bottom_title img{
+	/* float: left; */
+/* 	width: 35px;
+	height: 35px; */
+	margin: -10px 10px;
+}

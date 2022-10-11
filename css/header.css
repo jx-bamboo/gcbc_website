@@ -1,0 +1,226 @@
+.swiper-banner {
+	overflow: hidden;
+	height: 100%;
+}
+
+.header-title {
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	display: flex;
+	float: left;
+	transition: height 0.3s;
+}
+
+.header-title-img-logo {
+	width: 170px;
+	height: 46px;
+	margin-left: 10%;
+	margin-top: 16px;
+}
+
+.header-title-options {
+	display: flex;
+	width: 100%;
+	padding:0px 10%;
+}
+
+
+.header-title-ul {
+
+	height: auto;
+	overflow: hidden;
+	padding: 30px 0px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header-title-ul-li {
+	list-style: none;
+	font-family: PingFangSC-Regular;
+	width: 90px;
+	height: 40px;
+	line-height: 24px;
+	text-align: center;
+	float: left;
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	margin-left: 42px;
+	cursor: pointer;
+}
+
+.header-title-ul-li>a {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+
+.header-title-ul-li h1 {
+	width: 80px;
+	height: 4px;
+	background: rgba(35, 183, 255, 1);
+	position: absolute;
+	top: -4px;
+	margin-left: 5px;
+	transition: top 0.3s;
+}
+
+.options {
+	width: 200px;
+	position: absolute;
+	margin-left: -3%;
+	display: none;
+}
+
+.options ul {
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 12%;
+}
+
+.options li {
+	list-style: none;
+	font-family: PingFangSC-Regular;
+	color: #000;
+	cursor: pointer;
+	line-height: 60px;
+	width: 130px;
+	margin: auto;
+}
+
+.options li>a {
+	color: #000;
+	text-decoration: none;
+}
+
+.options li :hover {
+	color: #007AFF;
+}
+
+.header-title-ul li:hover {
+	color: #007AFF;
+}
+
+
+
+.header-title-img-search {
+	width: 34px;
+	height: 34px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+
+.triangle {
+	width: 0px;
+	border: 14px solid transparent;
+	border-bottom-color: #FFFFFF;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: -24px;
+}
+
+.language ul {
+	height: 34px;
+	font-size: 14px;
+	font-family: PingFangSC-Semibold;
+	font-weight: 600;
+	color: rgba(255, 255, 255, 1);
+	line-height: 34px;
+	margin-top: 25px;
+	margin-left: 20px;
+	inline-size: 72px;
+	padding-left: 28px;
+	padding-right: 20px;
+	border: white solid 1px;
+	border-radius: 17px;
+	transition: height 0.3s;
+	overflow: hidden;
+}
+
+
+.language ul li {
+	list-style: none;
+	cursor: pointer;
+}
+
+.language ul li:hover {
+	color: rgba(35, 183, 255, 1);
+}
+
+.language ul:hover {
+	height: 70%;
+}
+
+.language ul:hover span {
+	transform: rotate(90deg);
+}
+
+.language ul span {
+	width: 16px;
+	height: 16px;
+	background-image: url(http://web.gcigb.com/ic_more.png);
+	background-size: 100%;
+	float: right;
+	transition: 0.3s;
+	margin-top: 10px;
+}
+
+
+.header-bottom {
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	display: flex;
+}
+
+.header-bottom-ad_box {
+	width: 50%;
+}
+
+.header-bottom-ad {
+	margin-left: 30%;
+	display: flex;
+	align-items: center;
+}
+
+.header-bottom-ad img {
+	width: 36px;
+	height: 36px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.header-bottom-ad p {
+	height: 25px;
+	font-size: 18px;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+	line-height: 25px;
+	letter-spacing: 2px;
+	margin-left: 12px;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 150px;
+}
+
+.swiper-slide {
+	width: 100%;
+	height: 150px;
+}
+
+.swiper-slide img {
+	width: 100%;
+	height: 100%;
+}
+
+.header-top-title{
+	font-size: 20px;
+	text-align: center;
+}

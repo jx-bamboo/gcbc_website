@@ -1,0 +1,55 @@
+
+<div class="block-video">
+	<video onmouseout="videoStopped(this,img_play_logo,img_play_btn,video_poster_img)" loop="loop" muted id="id_video">
+		<source src="http://web.gcigb.com/block_video.mp4" type="video/mp4">
+		</source>
+		当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+	</video>
+
+	<img src="http://web.gcigb.com/ic_video_post.png" class="block-video-poster-img" id="video_poster_img" onmouseover="videoPlayback(this,img_play_logo,img_play_btn,id_video)" />
+	<img src="http://web.gcigb.com/ic_logo.png" class="block-video-img" id="img_play_logo">
+	<img src="http://web.gcigb.com/ic_video_play.png" class="block-play" id="img_play_btn">
+</div>
+
+<style type="text/css">
+	.block-video {
+		width: 604px;
+		height: 340px;
+		position: relative;
+	}
+
+	/**
+	 * 大中华区块链 - 右侧视频
+	 */
+	.block-video video {
+		width: 100%;
+		height: 100%;
+		object-fit: fill;
+		outline: none;
+		border-radius: 8px;
+	}
+
+	.block-video-img {
+		width: 100%;
+		height: 100%;
+		border-radius: 8px;
+	}
+
+	.block-video-poster-img {
+		width: 100%;
+		height: 100%;
+		border-radius: 8px;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	.block-video-img {
+		width: 160px;
+		height: 40px;
+		position: absolute;
+		bottom: 23px;
+		right: 41px;
+	}
+</style>
+

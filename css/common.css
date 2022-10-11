@@ -1,0 +1,85 @@
+
+.common_content{
+	margin: 0 auto;
+	width: 1400px;
+}
+
+/* 没有图标的标题 */
+h1.common_title_not_icon{
+	text-align: center;
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Semibold;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	line-height: 40px;
+	letter-spacing: 4px;
+}
+
+.common_title_margin_top{
+	margin-top: 145px;
+}
+
+
+.common_title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.common_title .common_title_content{
+	display: flex;
+	align-items: center;
+}
+
+.common_title .common_title_content img{
+	width: 52px;
+	height: 52px;
+}
+
+.common_title .common_title_content div h1{
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Semibold;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	line-height: 40px;
+	margin-left: 20px;
+}
+
+.common_title .common_title_content div p{
+	height: 20px;
+	font-size: 14px;
+	font-family: PingFangSC-Regular;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 1);
+	line-height: 20px;
+	margin-left: 20px;
+}
+
+.contact-backTopButton {
+		width: 60px;
+		height: 60px;
+		position: fixed;
+		top: 90%;
+		right: 14px;
+		z-index: 4;
+		cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

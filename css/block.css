@@ -1,0 +1,46 @@
+/**
+ * 大中华区块链 - 整体
+ */
+#block_main {
+	width: 100%;
+	height: 340px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 145px;
+}
+
+/**
+ * 大中华区块链 - 标题
+ */
+.block_title img{
+	width: 242px;
+	height: 55px;
+}
+
+/**
+ * 大中华区块链 - 左侧介绍
+ */
+.block_title p {
+	width: 515px;
+	height: 266px;
+	font-size: 18px;
+	font-family: PingFangSC-Regular;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 1);
+	line-height: 32px;
+	letter-spacing: 3px;
+	/* 上右下左 */
+	margin: 30px 0 0 100px;
+}
+
+
+
+.block-play {
+	width: 98px;
+	height: 98px;
+	position: absolute;
+	top: 121px;
+	left: 253px;
+}

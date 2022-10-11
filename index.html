@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>大中华区块链官网</title>
+		<link rel="Shortcut Icon" href="http://web.gcigb.com/favicon.ico" type="image/x-icon"/> 
+		
+		<script src="js/include.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/common.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+
+		<link rel="stylesheet" type="text/css" href="css/website.css" />
+		<link rel="stylesheet" type="text/css" href="./css/main.css" />
+		<link rel="stylesheet" type="text/css" href="./css/header.css" />
+		<link rel="stylesheet" type="text/css" href="./css/dynamic.css" />
+		<link rel="stylesheet" type="text/css" href="./css/product.css" />
+		<link rel="stylesheet" type="text/css" href="./css/block.css" />
+		<link rel="stylesheet" type="text/css" href="./css/attention.css" />
+		<link rel="stylesheet" type="text/css" href="./lib/css/swiper-bundle.min.css" />
+		<script src="./lib/js/swiper-bundle.min.js"></script>
+		<style type="text/css">
+			.swiper-banner img {
+				width: 100%;
+				height: 100%;
+				min-width: 1400px;
+				border-radius: 0;
+			}
+
+			.swiper-pagination-bullet {
+				width: 10px;
+				height: 10px;
+				display: inline-block;
+				border-radius: 9px;
+				background: #fff;
+				opacity: 1;
+				transition: .3s;
+			}
+
+			.swiper-pagination-bullet-active {
+				width: 55px;
+				height: 10px;
+				opacity: 1;
+				background: #fff;
+			}
+
+			.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+				margin: 0 7px
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="backTop" style="display: none;">
+			<a onclick="pageScroll(null,backTop)" class="contact-backTopButton" style="background-image: url(http://web.gcigb.com/back_top@2x.png);background-size: 100%;"></a>
+		</div>
+		<!-- 右侧联系我们 -->
+		<img src="http://web.gcigb.com/ic_contact.png" class="contact-button">
+
+		<div class="header">
+			<div class="swiper-banner">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<video loop="loop" muted autoplay="autoplay" style="object-fit: fill;">
+							<source src="http://web.gcigb.com/banner1_p4.mp4" type="video/mp4">
+							</source>
+							当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+						</video>
+					</div>
+					<div class="swiper-slide">
+						<img src="http://web.gcigb.com/banner222.png">
+					</div>
+					<div class="swiper-slide">
+						<img src="http://web.gcigb.com/banner3.png">
+					</div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination" style="margin-bottom: 88px"></div>
+			</div>
+			<div>
+				
+				<!-- <include src="common_html/title.html"></include> -->
+				
+				<div id="root_header_title" class="header-title" style="height: 80px;width: 100%; z-index: 2;">
+					<img src="http://web.gcigb.com/ic_logo.png" class="header-title-img-logo">
+					<div class="header-title-options">
+						<ul class="header-title-ul">
+							<li class="header-title-ul-li" onmouseover="hoverTitleOption(h1_line)" onmouseout="hoverNotTitleOption(h1_line)">
+								<h1 id="h1_line"></h1>
+								<a href="index.html" style="font-size: 20px;">首页</a>
+							</li>
+							<li class="header-title-ul-li" onmouseover="hoverTitleOption(options_product,h1_line2)" onmouseout="hoverNotTitleOption(options_product,h1_line2)">
+								<h1 id="h1_line2"></h1>
+								<div class="header-top-title">产品中心</div>
+								<div class="options" id="options_product">
+									<div class="triangle">
+									</div>
+									<ul>
+										<li>大中华DBchain</li>
+										<li><a href="officialSeal.html">大中华区块链公章</a></li>
+										<li>赛特区块链验证</li>
+									</ul>
+								</div>
+							</li>
+							<li class="header-title-ul-li" onmouseover="hoverTitleOption(options_incubation,h1_line3)" onmouseout="hoverNotTitleOption(options_incubation,h1_line3)">
+								<h1 id="h1_line3"></h1>
+								<div class="header-top-title">DS孵化器</div>
+								<div class="options" id="options_incubation">
+									<div class="triangle">
+									</div>
+									<ul>
+										<li><a href="ds.html">区块链梦工厂</a></li>
+										<li><a href="ds.html">技术孵化</a></li>
+										<li><a href="ds.html">办公空间</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="header-title-ul-li" onmouseover="hoverTitleOption(h1_line4)" onmouseout="hoverNotTitleOption(h1_line4)">
+								<h1 id="h1_line4"></h1>
+								<a href="about.html" style="font-size: 20px;">关于我们</a>
+							</li>
+							<li class="header-title-ul-li" onmouseover="hoverTitleOption(h1_line5)" onmouseout="hoverNotTitleOption(h1_line5)">
+								<h1 id="h1_line5"></h1>
+								<div class="header-top-title">帮助</div>
+							</li>
+						</ul>
+						<img src="http://web.gcigb.com/ic_search.png" class="header-title-img-search">
+						<div class="language">
+							<ul style="width: 80px;" onmouseover="languageHover(root_header_title)" onmouseout="languageHoverOut(root_header_title)">简体中文
+								<span></span>
+								<li>English</li>
+								<li>日本语</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<style type="text/css">
+					.header-title {
+						position: absolute;
+						top: 0;
+						z-index: 1;
+						display: flex;
+						float: left;
+						transition: height 0.3s,background-color .4s;
+					}
+					
+					.header-title-img-logo {
+						width: 170px;
+						height: 46px;
+						margin-left: 10%;
+						margin-top: 16px;
+					}
+					
+					.header-title-options {
+						display: flex;
+						width: 100%;
+						padding:0px 10%;
+					}
+					
+					
+					.header-title-ul {
+						height: auto;
+						overflow: hidden;
+						padding: 30px 0px;
+						width: 100%;
+						display: flex;
+						justify-content: flex-end;
+					}
+					
+					.header-title-ul-li {
+						list-style: none;
+						font-family: PingFangSC-Regular;
+						width: 90px;
+						height: 40px;
+						line-height: 24px;
+						text-align: center;
+						float: left;
+						color: rgba(255, 255, 255, 1);
+						font-size: 16px;
+						margin-left: 42px;
+						cursor: pointer;
+					}
+					
+					.header-title-ul-li>a {
+						color: rgba(255, 255, 255, 1);
+						text-decoration: none;
+					}
+					
+					.header-title-ul-li h1 {
+						width: 80px;
+						height: 4px;
+						background: rgba(35, 183, 255, 1);
+						position: absolute;
+						top: -4px;
+						margin-left: 5px;
+						transition: top 0.3s;
+					}
+				</style>
+				
+				<!--  -->
+
+				<div class="header-bottom">
+					<div class="header-bottom-ad_box">
+						<div class="header-bottom-ad">
+							<img src="http://web.gcigb.com/ic_ad.png">
+							<p>只需十分钟带你了解大中华区块链科技最新资讯</p>
+						</div>
+					</div>
+					<div class="attention">
+						<div class="weixin">
+							<img src="http://web.gcigb.com/icon_wechat.png">
+						</div>
+						<div class="douyin">
+							<img src="http://web.gcigb.com/icon_douyin.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 内容区域 -->
+		<div class="content">
+			<!-- 区块链实时动态 -->
+			<div id="dynamic_main">
+				<h1 class="common_title_not_icon">区块链数据动态</h1>
+				<div style="display: flex; margin-top: 60px;">
+					<div class="dynamicItemContent">
+						<p class="dynamicNumber">3,3242,5433</p>
+						<p class="dynamicName">用户数</p>
+					</div>
+					<p class="splitLine"></p>
+					<div class="dynamicItemContent">
+						<p class="dynamicNumber">7,5567,2323</p>
+						<p class="dynamicName">区块高度</p>
+					</div>
+					<p class="splitLine"></p>
+					<div class="dynamicItemContent">
+						<p class="dynamicNumber">245 <kdd style="font-size: 18px;">笔/秒</kdd>
+						</p>
+						<p class="dynamicName">历史并发峰值</p>
+					</div>
+					<p class="splitLine"></p>
+					<div class="dynamicItemContent">
+						<p class="dynamicNumber">2,4534,2432</p>
+						<p class="dynamicName">交易笔数</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- 产品中心 -->
+			<div id="product_main">
+				<!-- 标题 -->
+				<div class="common_title">
+					<div class="common_title_content">
+						<img src="http://web.gcigb.com/icon_product.png" />
+						<div>
+							<h1 style="letter-spacing: 10px;">产品中心</h1>
+							<p style="letter-spacing: 1px;">PRODUCT CENTER</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div id="product_navigation">
+					<img src="http://web.gcigb.com/ic_btn_left.png" class="btn_left">
+					<img src="http://web.gcigb.com/ic_btn_right.png" class="btn_right">
+				</div> -->
+				<div style="position: relative;margin-left: 5%; margin-right: 5%;">
+					<div class="swiper-container" style="width: 1400px; margin-top: 80px;">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="http://web.gcigb.com/product_0.png">
+								<h1>大中华DBchain区块链数据库</h1>
+								<p>独创区块链分布式管理、智能<br />
+									合约共识机制和分布式存储(IPFS)<br />
+									的技术为基础的区块链分布式数据库</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="http://web.gcigb.com/product_1.png">
+								<h1>Say-tech赛特区块链验证系统</h1>
+								<p>区块链+生物识别+AI算法，<br />
+									融合声纹面部识别本地双验证，<br>
+									银行级安全水平、轻松密码管理</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="http://web.gcigb.com/product_2.png">
+								<h1>大中华区块链公章</h1>
+								<p>自主国家专利，基于大中华DBchain区块链数据库及IPFS技术开发，“链化”公章，<br />
+									彻底解决公章管理难题。操作简便、安全、成本低。<br />
+								</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="http://web.gcigb.com/product_3.png">
+								<h1>歌斐木公链</h1>
+								<p>精算随机进行点对点通信、精密算法区块写入协议、<br />
+									多种共识机制优势集结</p>
+							</div>
+							<div class="swiper-slide">
+								<img src="http://web.gcigb.com/product_4.png">
+								<h1>凤凰1.0区块链手机</h1>
+								<p>基于区块链+生物识别+AI算法打造，<br />
+									融合声纹面部识别本地双验证，双卡双待的<br>
+									首款极致安全的区块链安卓手机</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+			<!-- 大中华区块链 -->
+			<div id="block_main" style="width: 1400px; margin-left: auto; margin-right: auto;">
+				<!-- 标题 -->
+				<div class="block_title">
+					<img src="http://web.gcigb.com/icon_dzh_block.png">
+					<p>大中华区块链科技致力于推动区块链技术与实体经济深度融合，探索数字经济创新模式，联动纵横产业链实现供需对接，服务实体经济转型升级。全力培育行业领军企业和产业生态，开展区块链应用的概念验证、试验平台、先导应用示范。</p>
+				</div>
+				<include src="common_html/video_block.html">
+
+			</div>
+			<!-- DS区块链产业孵化器 -->
+			<div class="common_title" style="margin-top: 145px; ">
+				<div class="common_title_content">
+					<img src="http://web.gcigb.com/icon_hatch@2x.png" />
+					<div>
+						<h1 style="letter-spacing: 0px;">DS区块链产业孵化器</h1>
+						<p style="letter-spacing: 6.2px;">DS Biockchain Incuba</p>
+					</div>
+				</div>
+			</div>
+			<!-- 伸缩图 -->
+			<div class="flex-container" style="margin-top: 100px; width: 1400px;">
+				<div class="flex-item active" id="move1" onmouseover="move_div(0);">
+					<div style="padding: 12px 14px;">
+						<p class="title4">大中华·区块链工程师梦工厂</p>
+						<p class="title51">DS Blockchain DreamWorks</p>
+					</div>
+					<div class="incubaTitleDiv">
+						<div>
+							为解决区块链与各产业行业之间的“壁垒”，大中华区块链科技以培养“技术+市场”复合型人才为教学宗旨，打造技术与市场融会贯通的国家“合格区块链工程师”。
+						</div>
+					</div>
+				</div>
+
+				<div class="flex-item" id="move2" onmouseover="move_div(1); " style="margin:  0 30px;">
+					<div style="padding: 12px 14px;">
+						<p class="title4">技术孵化</p>
+						<p class="title51">TECHNOLOGY INCUBATIO</p>
+					</div>
+					<div class="incubaTitleDiv">
+						<div>
+							Deeptech Space注入10亿等级创业基金，立意在让办公更卓越的硬件基础上，为区块链技术人才的塑造、区块链技术的迭代精进提供不竭的动力。欢迎科技界有识之士，同愿景共意向，为整个中华产业的复兴崛起而奋斗！
+						</div>
+					</div>
+				</div>
+
+				<div class="flex-item" id="move3" onmouseover="move_div(2);" onclick="window.location.href= 'ds.html';return false" style="cursor: pointer;">
+					<div style="padding: 12px 14px;">
+						<p class="title4">办公空间</p>
+						<p class="title51">OFFICE SPACE </p>
+					</div>
+					<div class="incubaTitleDiv">
+						<div>
+							4500平方米Deeptech
+							Space拥有381个精致宽敞独立工位，满足4人到40人的灵活办公需求。配套多种办公空间类型，会议室、路演厅、洽谈间一应俱全。内置流线型超宽敞公共休闲洽谈区域，灵动的视觉体验，紧致有序的工作中尽享一隅惬意。更有专属就餐区、茶水间、休息区、解压室、咖啡厅、红酒廊为工作增添丰富的生活情趣。
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 区块链进程 -->
+			<div style="width: 1400px; margin: 100px auto 60px auto; ">
+				<div class="common_title">
+					<div class="common_title_content">
+						<img src="http://web.gcigb.com/icon_process@2x.png" />
+						<div>
+							<h1 style="letter-spacing: 20px;">大事记</h1>
+							<p style="letter-spacing: 5px;">Memorabilia</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- 时间线 -->
+			<hr class="posabs" style="border-top:1px dashed #979797; height:1px; border-bottom: 0; border-left: 0; border-right: 0;" />
+			<div style="width: 1400px; margin: 0 auto; ">
+				<div style="width: 350px; float: left;">
+					<div class="processItem" style="float: left;">2018.04</div>
+					<div class="cirpos" style="width:20px;height:20px;border-radius:50%;background-color: #737373;float: left;"></div>
+					<div class="processItem" style="float: left;font-size: 0.9375rem;width: 80%;margin-left: 3.75rem;">大中华区块链科技诞生啦！</div>
+				</div>
+
+				<div style="width: 350px; float: left;">
+					<div class="processItem" style="float: left;">2019.07</div>
+					<div class="cirpos" style="width:20px;height:20px;border-radius:50%;background-color: #737373;;float: left;"></div>
+					<div class="processItem" style="float: left;font-size: 0.9375rem;width: 80%;margin-left: 3.75rem">大中华DBchain区块链数据库1.0版正式上线</div>
+				</div>
+
+				<div style="width: 350px; float: left;">
+					<div class="processItem" style="float: left;">2020.05</div>
+					<div class="cirpos" style="width:20px;height:20px;border-radius:50%;background-color: #737373;;float: left;"></div>
+					<div class="processItem" style="float: left;font-size: 0.9375rem;width: 80%;margin-left: 3.75rem">Say-tech赛特AI+区块链语音识别系统上线</div>
+				</div>
+
+				<div style="width: 350px; float: left;">
+					<div class="processItem" style="float: left;">2020.08</div>
+					<div class="cirpos" style="width:20px;height:20px;border-radius:50%;background-color: #737373;;float: left;"></div>
+					<div class="processItem" style="float: left;font-size: 0.9375rem;width: 80%;margin-left: 3.75rem">大中华区块链公章管理系统1.0开发完成</div>
+				</div>
+			</div><br />
+			<!-- 合作伙伴 -->
+			<div style="width: 1400px; margin: 165px auto 50px auto; ">
+				<div class="common_title" style="margin-top: 240px;">
+					<div class="common_title_content">
+						<img src="http://web.gcigb.com/icon_partner@2x.png" />
+						<div>
+							<h1 style="letter-spacing: 10px;">合作伙伴</h1>
+							<p style="letter-spacing: 1px;">cooperative partner</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="partnerImg" style="width: 1400px;height: 300px;margin: 30px 46px;">
+					<img src="http://web.gcigb.com/icon_OpenPlatform2.png" class="partnerImgStyle" />
+					<img src="http://web.gcigb.com/icon_OpenPlatform4.png" class="partnerImgStyle" />
+					<img src="http://web.gcigb.com/icon_OpenPlatform.png" class="partnerImgStyle" />
+					<img src="http://web.gcigb.com/icon_OpenPlatform1.png" class="partnerImgStyle" />
+					<img src="http://web.gcigb.com/icon_OpenPlatform3.png" class="partnerImgStyle" />
+					<img src="http://web.gcigb.com/icon_OpenPlatform5.png" class="partnerImgStyle" />
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<!-- <include src="common_html/footer.html"></include> -->
+			<div class="footer-main">
+				<div class="footer-div-detail">
+					<ul>
+						产品中心
+						<li style="margin-top: 26px;">GCIG开发框架</li>
+						<li>大中华区块链公章</li>
+					</ul>
+					<ul>
+						DS孵化器
+						<li style="margin-top: 26px;">DS学院</li>
+						<li>技术孵化</li>
+						<li>办公空间</li>
+					</ul>
+					<ul>
+						关于我们
+						<li style="margin-top: 26px;">公司介绍</li>
+						<li>招贤纳队</li>
+						<li>企业新闻</li>
+						<li>联系我们</li>
+					</ul>
+					<p class="footer-line"></p>
+					<div class="footer-attention">
+						<img src="http://web.gcigb.com/ic_publish_footer.png">
+						<p>大中华区块链公众号</p>
+					</div>
+					<div class="footer-attention" style="margin-left: 54px;">
+						<img src="http://web.gcigb.com/ic_douyin_footer.png">
+						<p>大中华区块链抖音号</p>
+					</div>
+				</div>
+				<p class="footer-horizontal-line"></p>
+				<div class="footer-number-main">
+					<!-- <div class="footer-number">
+						<p>京公网安备 1100002000xxx号</p>
+						<h1 class="footer_bottom_ver_line"></h1>
+						<p>深圳ICP证xxxxx号</p>
+						<h1 class="footer_bottom_ver_line"></h1>
+						<p>京网信备 1101081939087937xxxx号</p>
+					</div>
+					<p style="margin: 16px auto 17px auto;">使用百度前必读@2020 Baidu</p> -->
+					<div class="addressAndPhone">
+						<p style="color: #FFFFFF;">地址：深圳市福田区福华1路大中华国际交易广场32层 </p>
+						<p style="color: #FFFFFF;">电话：0755-83250870</p>
+					</div>
+					<p style="margin: 16px auto 17px auto;">Copyright © 2020 www.gcigb.com All Rights Reserved. 大中华区块链 版权所有</p>
+				</div>
+			</div>
+			
+			<style type="text/css">
+				
+				.footer-number-main .addressAndPhone p{
+					color: #FFFFFF;
+				}
+				
+				.footer-number-main .addressAndPhone{
+					display: flex;
+					flex-direction: row;
+					flex-wrap: nowrap;
+				}
+				
+				.footer-main {
+					width: 1400px;
+					margin: 0 auto;
+					padding: 76px 0 0 20px;
+				}
+			
+				.footer-main .footer-div-detail {
+					display: flex;
+				}
+			
+				.footer-main .footer-div-detail ul {
+					height: 30px;
+					font-size: 22px;
+					font-family: PingFangSC-Semibold;
+					font-weight: 400;
+					color: rgba(255, 255, 255, 1);
+					line-height: 30px;
+					letter-spacing: 4px;
+					width: 100%;
+				}
+			
+			
+				.footer-main .footer-div-detail ul li {
+					font-size: 16px;
+					font-family: PingFangSC-Regular;
+					font-weight: 400;
+					color: rgba(255, 255, 255, 1);
+					line-height: 22px;
+					letter-spacing: 1px;
+					list-style: none;
+					margin-top: 11px;
+					cursor: pointer;
+				}
+			
+				.footer-main .footer-div-detail ul li:hover {
+					color: antiquewhite;
+				}
+			
+				.footer-main .footer-div-detail .footer-line {
+					width: 1px;
+					height: 154px;
+					background: rgba(107, 107, 107, 1);
+					border-radius: 1px;
+				}
+			
+				.footer-main .footer-div-detail .footer-attention {
+					width: 161px;
+					height: 138px;
+					display: flex;
+					flex-direction: column;
+					margin-left: 157px;
+				}
+			
+				.footer-main .footer-div-detail .footer-attention img {
+					width: 100px;
+					height: 100px;
+					margin: 0 auto;
+				}
+			
+				.footer-main .footer-div-detail .footer-attention p {
+					width: 161px;
+					height: 22px;
+					font-size: 16px;
+					font-family: PingFangSC-Regular;
+					font-weight: 400;
+					color: rgba(255, 255, 255, 1);
+					line-height: 22px;
+					letter-spacing: 1px;
+					margin: 16px auto;
+				}
+			
+				.footer-main .footer-horizontal-line {
+					width: 1228px;
+					height: 1px;
+					background: rgba(66, 66, 66, 1);
+					margin: 79px auto auto auto;
+				}
+			
+				.footer-main .footer-number-main {
+					width: max-content;
+					display: flex;
+					margin: 23px auto;
+					flex-direction: column;
+				}
+			
+				.footer-main .footer-number-main .footer-number {
+					display: flex;
+				}
+			
+				.footer-main .footer-number-main p {
+					height: 25px;
+					font-size: 18px;
+					font-family: PingFangSC-Regular;
+					font-weight: 600;
+					color: rgba(73, 73, 73, 1);
+					line-height: 25px;
+					letter-spacing: 2px;
+					margin: auto;
+				}
+			
+				.footer-main .footer-number-main .footer_bottom_ver_line {
+					width: 1px;
+					height: 19px;
+					background-image: linear-gradient(#494949, #666, #494949);
+					border-radius: 50% / 50%;
+					margin: auto 20px auto 20px;
+				}
+			</style>
+			
+			<!--  -->
+		</div>
+		<script type="text/javascript">
+			function move_div(id) {
+				var items = document.getElementsByClassName('flex-item');
+				for (var i = 0; i < items.length; i++) {
+					items[i].className = 'flex-item';
+				}
+				items[id].className = 'flex-item active'
+			}
+
+			var swiper = new Swiper('.swiper-container', {
+				slidesPerView: 4,
+				spaceBetween: 40,
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+
+			var swiperBanner = new Swiper('.swiper-banner', {
+				loop: true,
+				autoplay: {
+					delay: 5000,
+					stopOnLastSlide: false,
+					disableOnInteraction: false,
+				},
+				pagination: {
+					el: '.swiper-pagination',
+				},
+			});
+			setbackTopHiden(backTop);
+		</script>
+	</body>
+</html>
